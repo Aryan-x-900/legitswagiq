@@ -19,7 +19,7 @@ g="https://discord.gg/rsQUHwq"
  
 oot_channel_id_list = ["842239797803876372", #trivia-x
 "840653201618632704", #challenge
-"841339755294883874", #legit
+"842267116677890049", #legit
 "835201293600817212", #text
 #"", #duck
 #"837133178031964190", #mohit
@@ -348,7 +348,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('ODQyNDQxMDc5Njk3MzA5NzI4.YJ1WZQ.LZS_3EBkKmtpYgt8x-JhiIjwysg'))
+    loop.create_task(bot.start('ODQyNDQzNTk4Mjk3NTYzMTk2.YJ1YvQ.cYMbpJ4n3sL9Il8hfNynUg6idXs'))
     loop.run_forever()
 
 
