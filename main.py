@@ -288,7 +288,7 @@ class Bot(discord.Client):
         print("Connected to discord.")
         print("User: " + self.user.name)
         print("ID: " + str(self.user.id))
-        log=self.get_channel(842239774386683914)
+        log=self.get_channel(841339755294883874)
         await log.send("> **Swag-iq Bot Is Updated ** ✅")
         await self.clear_results()
         await self.update_embeds()
@@ -348,7 +348,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('ODQyNDQzNTk4Mjk3NTYzMTk2.YJ1YvQ.cYMbpJ4n3sL9Il8hfNynUg6idXs'))
+    loop.create_task(bot.start('ODQyNDQzNTk4Mjk3NTYzMTk2.YJ1YvQ.KQ0I6Qear-0ZScJ2c9N1a70O38s'))
     loop.run_forever()
 
 
