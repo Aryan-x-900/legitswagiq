@@ -18,11 +18,11 @@ g="https://discord.gg/rsQUHwq"
 
  
 oot_channel_id_list = ["842239797803876372", #trivia-x
-"840991811882582047", #challenge
-"838863447813783556", #legit
+"", #trivia-x
+#"838863447813783556", #legit
 #"", #text
-"832650978268020859", #duck
-"837133178031964190", #mohit
+#"832650978268020859", #duck
+#"837133178031964190", #mohit
 #"728281366919118918", #unt
 #HQ
 #"570794448808837131", #swag iq king
@@ -348,7 +348,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('ODQyMjM3MDgyNDcwMzE4MTEx.YJyYaA.xG_GCy7bSUM6qsEVt7baq-98hEg'))
+    loop.create_task(bot.start('ODQyNDk5NDU0MjAzNDYxNjQy.YJ2Mwg.-FsCwmC5GGcRZRpg1Yu1F2oklUg'))
     loop.run_forever()
 
 
@@ -357,7 +357,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('ODQyMjM3Nzc1MjYzOTU3MDQz.YJyZDQ.x9O9X6XmpRd5jp_Q1XfEoZydPWQ',
+    loop.create_task(selfbot.start('ODM5MjYzMTMwMTAyMDA1Nzc5.YJHGsg.v5vRB4f4Jo60_xfP4NJQqbV8_6M',
                                    bot=True))
     loop.run_forever()
 
